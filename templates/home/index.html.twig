@@ -1,0 +1,29 @@
+{# templates/home/index.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block body %}
+    <h2>Bienvenido a la página de inicio</h2>
+    <div class="card-container">
+        <div class="card">
+            <img src="{{ asset('images/burger1.jpg') }}" alt="Hamburguesa 1">
+            <h3>Hamburguesa Clásica</h3>
+            <p>Deliciosa hamburguesa con queso, lechuga y tomate.</p>
+            <button>Seleccionar</button>
+        </div>
+        <div class="card">
+            <img src="{{ asset('images/burger1.jpg') }}" alt="Hamburguesa 2">
+            <h3>Hamburguesa BBQ</h3>
+            <p>Hamburguesa con salsa BBQ, cebolla caramelizada y bacon.</p>
+            <button>Seleccionar</button>
+        </div>
+        <div class="card">
+            <img src="{{ asset('images/burger1.jpg') }}" alt="Hamburguesa 3">
+            <h3>Hamburguesa Vegana</h3>
+            <p>Hamburguesa de garbanzos con aguacate y espinacas.</p>
+            <button>Seleccionar</button>
+        </div>
+        <!-- Añade más cartas según sea necesario -->
+    </div>
+{% endblock %}
