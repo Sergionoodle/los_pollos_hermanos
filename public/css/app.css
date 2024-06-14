@@ -1,11 +1,9 @@
 /* public/css/app.css */
-html,head, body {
+html, body {
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 .full-width-container {
@@ -13,7 +11,7 @@ html,head, body {
     height: 100%;
 }
 
-.header, footer {
+header, footer {
     background-color: #f8f9fa;
     text-align: center;
 }
@@ -88,6 +86,54 @@ main {
 .header__nav li a:hover {
     background-color: #575757;
     border-radius: 4px;
+}
+
+.welcome-section {
+    background-color: #f0c040; /* Color de fondo amarillo */
+    text-align: center;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.welcome-banner {
+    display: inline-block;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.welcome-banner h1 {
+    color: #a00000; /* Color rojo */
+    font-size: 2.5rem;
+    margin: 0 0 1rem;
+}
+
+.welcome-banner .quote {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.welcome-banner .author {
+    font-weight: bold;
+    color: #a00000; /* Color rojo */
+    text-align: right;
+}
+
+.gus-image {
+    display: flex;
+    vertical-align: middle;
+    margin: 1rem;
+    width: 20%;
+}
+
+.gus-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
 .card-container {
